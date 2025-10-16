@@ -1,0 +1,10 @@
+ Verificação se o Node.js e o Angular estão instalados:
+node -v
+npm -v
+ng version
+§ Instalação do Angular:
+npm install -g @angular/cli
+npm install -g @angular/cli@19
+§ -g: consiste na instalação global
+§ Powershell execution policy (Habilitar a execução de Script Powershell - Windows)
+§ Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
