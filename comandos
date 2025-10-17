@@ -8,3 +8,19 @@ npm install -g @angular/cli@19
 § -g: consiste na instalação global
 § Powershell execution policy (Habilitar a execução de Script Powershell - Windows)
 § Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+
+Há duas formas de executar um projeto Angular:
+ ng serve ou ng serve --open
+§ Comando oficial do Angular CLI.
+§ Compila o projeto em tempo real (live reload).
+§ Abre o servidor de desenvolvimento (por padrão em http://localhost:4200).
+§ --open ou -o: Inicia o navegador
+§ npm start / npm run start
+§ Um atalho definido no package.json para outro comando.
+§ npm run <script> é uma forma genérica de rodar qualquer script
+definido no package.json.
+
+Subindo pro gir
+git init
+git add .
+git commig -m "Aula 7"
